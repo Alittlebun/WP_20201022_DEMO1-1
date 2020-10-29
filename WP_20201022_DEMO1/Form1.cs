@@ -31,5 +31,27 @@ namespace WP_20201022_DEMO1
 
             rtbMsg.Text = msg + "\n";
         }
+        
+      
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            id = 12345678;
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            label1.Text = "ID:" + id;
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        int id = 0;
     }
 }
